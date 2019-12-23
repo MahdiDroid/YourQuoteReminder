@@ -1,0 +1,49 @@
+﻿@model YourQuoteReminder.ViewModels.QuoteViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Quote Of Day</h1>
+<table class="table-striped">
+    <tr>
+        <th>ID</th>
+        <th>UserQuote </th>
+        <th>CreatedDateTime</th>
+    </tr>
+
+    @*<tr>
+        <td>22222</td>
+        <td>555</td>
+        <td>66666</td>
+    </tr>*@
+
+    @foreach (var item in Model.Quotes)
+    {
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.UserQuote</td>
+        <td>@item.CreatedDateTime</td>
+    </tr>
+
+    }
+
+
+</table>
+
+@*
+        @foreach (var quote in Model.Quotes)
+    {
+
+    <p>@quote.UserQuote | @quote.CreatedDateTime</p>
+    <p>
+
+    </p>
+
+    }
+*@
+
+
+
+
+
