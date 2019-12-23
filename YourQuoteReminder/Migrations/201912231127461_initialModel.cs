@@ -1,4 +1,4 @@
-﻿   add-migration Itinamespace YourQuoteReminder.Migrations
+﻿ namespace YourQuoteReminder.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
