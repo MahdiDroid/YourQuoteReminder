@@ -27,5 +27,15 @@ namespace YourQuoteReminder.Controllers
             };
             return View(qViewModel);
         }
+
+        public ActionResult Add()
+        {
+            return Content("Hello");
+        }
+
+        public ActionResult Edit()
+        {
+            return Content("this is Edit ");
+        }
     }
 }

@@ -5,26 +5,20 @@
 }
 
 <h1>Quote Of Day</h1>
-<table class="table-striped">
+<table class="table ">
     <tr>
         <th>ID</th>
         <th>UserQuote </th>
         <th>CreatedDateTime</th>
     </tr>
 
-    @*<tr>
-        <td>22222</td>
-        <td>555</td>
-        <td>66666</td>
-    </tr>*@
-
     @foreach (var item in Model.Quotes)
     {
-    <tr>
-        <td>@item.Id</td>
-        <td>@item.UserQuote</td>
-        <td>@item.CreatedDateTime</td>
-    </tr>
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.UserQuote</td>
+            <td>@item.CreatedDateTime</td>
+        </tr>
 
     }
 
