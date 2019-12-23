@@ -136,6 +136,10 @@
     <Compile Include="Migrations\201912231127461_initialModel.designer.cs">
       <DependentUpon>201912231127461_initialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912231208219_ApplyAnnotationToUserQuote.cs" />
+    <Compile Include="Migrations\201912231208219_ApplyAnnotationToUserQuote.designer.cs">
+      <DependentUpon>201912231208219_ApplyAnnotationToUserQuote.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Quote.cs" />
@@ -200,6 +204,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201912231127461_initialModel.resx">
       <DependentUpon>201912231127461_initialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912231208219_ApplyAnnotationToUserQuote.resx">
+      <DependentUpon>201912231208219_ApplyAnnotationToUserQuote.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
